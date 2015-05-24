@@ -5,7 +5,7 @@
 #envir that can cache inverse, also holds
 #getter and function to inverse
 
-makeCacheMatrix <- function(orig_matrix, ...){
+makeCacheMatrix <- function(orig_matrix = matrix(), ...){
     inver_matrix <- NULL
     
     #FUNCTION DEFINITIONS
